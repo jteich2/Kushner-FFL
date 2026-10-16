@@ -12844,6 +12844,8 @@
    "league_key": "461.l.268463",
    "name": "Kushner FFL",
    "season": "2025",
+   "is_finished": 1,
+   "renew": "449_754503",
    "settings": {
     "scoring_type": "head",
     "start_week": "1",
@@ -12887,209 +12889,7 @@
       "position": "IR",
       "count": 1
      }
-    ],
-    "stat_modifiers": {
-     "stats": [
-      {
-       "stat": {
-        "stat_id": 4,
-        "value": "0.04"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 5,
-        "value": "4"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 6,
-        "value": "-1"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 9,
-        "value": "0.1"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 10,
-        "value": "6"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 11,
-        "value": "0.5"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 12,
-        "value": "0.1"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 13,
-        "value": "6"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 15,
-        "value": "6"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 16,
-        "value": "2"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 18,
-        "value": "-2"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 57,
-        "value": "6"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 19,
-        "value": "3"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 20,
-        "value": "3"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 21,
-        "value": "3"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 22,
-        "value": "4"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 23,
-        "value": "5"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 29,
-        "value": "1"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 32,
-        "value": "1"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 33,
-        "value": "2"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 34,
-        "value": "2"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 35,
-        "value": "6"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 36,
-        "value": "2"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 37,
-        "value": "2"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 49,
-        "value": "6"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 50,
-        "value": "10"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 51,
-        "value": "7"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 52,
-        "value": "4"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 53,
-        "value": "1"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 54,
-        "value": "0"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 55,
-        "value": "-1"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 56,
-        "value": "-4"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 82,
-        "value": "2"
-       }
-      }
-     ]
-    }
+    ]
    },
    "teams": [
     {
@@ -13277,10 +13077,10 @@
       "97.52",
       "121.16"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.2",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 1,
@@ -13292,10 +13092,10 @@
       "112.88",
       "100.74"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.3",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 1,
@@ -13307,10 +13107,10 @@
       "104.32",
       "108.62"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.8",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 1,
@@ -13322,10 +13122,10 @@
       "132.18",
       "87.88"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.5",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 1,
@@ -13337,10 +13137,10 @@
       "112.32",
       "125.26"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.10",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 2,
@@ -13352,10 +13152,10 @@
       "123.10",
       "114.48"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.1",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 2,
@@ -13367,10 +13167,10 @@
       "146.50",
       "93.14"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.2",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 2,
@@ -13382,10 +13182,10 @@
       "93.90",
       "106.20"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.4",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 2,
@@ -13397,10 +13197,10 @@
       "154.94",
       "119.38"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.5",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 2,
@@ -13412,10 +13212,10 @@
       "114.24",
       "125.64"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.9",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 3,
@@ -13427,10 +13227,10 @@
       "118.06",
       "121.42"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.6",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 3,
@@ -13442,10 +13242,10 @@
       "91.22",
       "91.76"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.8",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 3,
@@ -13457,10 +13257,10 @@
       "159.32",
       "120.70"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.3",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 3,
@@ -13472,10 +13272,10 @@
       "99.38",
       "89.34"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.4",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 3,
@@ -13487,10 +13287,10 @@
       "111.44",
       "122.72"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.10",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 4,
@@ -13502,10 +13302,10 @@
       "140.90",
       "119.32"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.1",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 4,
@@ -13517,10 +13317,10 @@
       "121.78",
       "115.88"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.2",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 4,
@@ -13532,10 +13332,10 @@
       "120.38",
       "147.42"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.5",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 4,
@@ -13547,10 +13347,10 @@
       "110.94",
       "139.40"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.7",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 4,
@@ -13562,10 +13362,10 @@
       "114.40",
       "138.86"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.10",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 5,
@@ -13577,10 +13377,10 @@
       "93.10",
       "129.48"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.3",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 5,
@@ -13592,10 +13392,10 @@
       "104.22",
       "151.82"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.5",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 5,
@@ -13607,10 +13407,10 @@
       "103.54",
       "116.72"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.10",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 5,
@@ -13622,10 +13422,10 @@
       "117.88",
       "138.22"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.8",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 5,
@@ -13637,10 +13437,10 @@
       "129.60",
       "150.24"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.9",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 6,
@@ -13652,10 +13452,10 @@
       "116.56",
       "84.24"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.1",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 6,
@@ -13667,10 +13467,10 @@
       "120.34",
       "127.34"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.3",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 6,
@@ -13682,10 +13482,10 @@
       "112.64",
       "108.56"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.4",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 6,
@@ -13697,10 +13497,10 @@
       "116.44",
       "70.30"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.5",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 6,
@@ -13712,10 +13512,10 @@
       "137.78",
       "163.66"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.9",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 7,
@@ -13727,10 +13527,10 @@
       "158.68",
       "121.54"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.1",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 7,
@@ -13742,10 +13542,10 @@
       "131.94",
       "101.14"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.2",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 7,
@@ -13757,10 +13557,10 @@
       "92.22",
       "93.74"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.7",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 7,
@@ -13772,10 +13572,10 @@
       "148.54",
       "168.10"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.9",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 7,
@@ -13787,10 +13587,10 @@
       "125.66",
       "119.72"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.5",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 8,
@@ -13802,10 +13602,10 @@
       "117.46",
       "113.52"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.1",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 8,
@@ -13817,10 +13617,10 @@
       "157.90",
       "126.48"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.2",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 8,
@@ -13832,10 +13632,10 @@
       "78.58",
       "114.38"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.10",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 8,
@@ -13847,10 +13647,10 @@
       "111.08",
       "139.78"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.9",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 8,
@@ -13862,10 +13662,10 @@
       "110.16",
       "105.26"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.7",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 9,
@@ -13877,10 +13677,10 @@
       "110.72",
       "135.66"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.5",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 9,
@@ -13892,10 +13692,10 @@
       "110.16",
       "118.60"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.9",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 9,
@@ -13907,10 +13707,10 @@
       "137.40",
       "118.50"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.3",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 9,
@@ -13922,10 +13722,10 @@
       "166.24",
       "103.20"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.4",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 9,
@@ -13937,10 +13737,10 @@
       "70.58",
       "96.42"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.10",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 10,
@@ -13952,10 +13752,10 @@
       "141.72",
       "154.74"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.2",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 10,
@@ -13967,10 +13767,10 @@
       "116.80",
       "95.30"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.3",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 10,
@@ -13982,10 +13782,10 @@
       "101.18",
       "135.10"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.8",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 10,
@@ -13997,10 +13797,10 @@
       "106.20",
       "102.12"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.5",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 10,
@@ -14012,10 +13812,10 @@
       "164.90",
       "112.04"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.9",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 11,
@@ -14027,10 +13827,10 @@
       "126.58",
       "141.28"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.10",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 11,
@@ -14042,10 +13842,10 @@
       "121.42",
       "111.70"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.2",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 11,
@@ -14057,10 +13857,10 @@
       "117.10",
       "130.32"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.4",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 11,
@@ -14072,10 +13872,10 @@
       "139.84",
       "86.64"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.5",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 11,
@@ -14087,10 +13887,10 @@
       "94.90",
       "65.34"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.6",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 12,
@@ -14102,10 +13902,10 @@
       "169.98",
       "96.04"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.1",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 12,
@@ -14117,10 +13917,10 @@
       "94.12",
       "148.98"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.8",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 12,
@@ -14132,10 +13932,10 @@
       "91.02",
       "84.16"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.3",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 12,
@@ -14147,10 +13947,10 @@
       "166.06",
       "121.06"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.4",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 12,
@@ -14162,10 +13962,10 @@
       "121.76",
       "107.22"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.7",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 13,
@@ -14177,10 +13977,10 @@
       "136.44",
       "79.74"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.1",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 13,
@@ -14192,10 +13992,10 @@
       "106.64",
       "149.60"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.4",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 13,
@@ -14207,10 +14007,10 @@
       "99.52",
       "124.18"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.5",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 13,
@@ -14222,10 +14022,10 @@
       "98.84",
       "94.10"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.6",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 13,
@@ -14237,10 +14037,10 @@
       "136.04",
       "92.72"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.8",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 14,
@@ -14252,10 +14052,10 @@
       "127.94",
       "101.34"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.1",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 14,
@@ -14267,10 +14067,10 @@
       "126.36",
       "80.36"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.2",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 14,
@@ -14282,10 +14082,10 @@
       "130.74",
       "141.44"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.10",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 14,
@@ -14297,10 +14097,10 @@
       "114.68",
       "117.50"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.8",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 14,
@@ -14312,10 +14112,10 @@
       "135.40",
       "116.86"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.7",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 15,
@@ -14327,10 +14127,10 @@
       "125.90",
       "93.80"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.2",
      "is_playoffs": "1",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 15,
@@ -14342,10 +14142,10 @@
       "131.26",
       "150.42"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.10",
      "is_playoffs": "1",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 16,
@@ -14357,10 +14157,10 @@
       "130.42",
       "122.94"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.1",
      "is_playoffs": "1",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 16,
@@ -14372,10 +14172,10 @@
       "137.28",
       "142.60"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.7",
      "is_playoffs": "1",
-     "is_consolation": "1",
-     "is_tied": 0
+     "is_consolation": "1"
     },
     {
      "week": 16,
@@ -14387,10 +14187,10 @@
       "122.86",
       "146.36"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.9",
      "is_playoffs": "1",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 16,
@@ -14402,10 +14202,10 @@
       "137.00",
       "125.50"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.5",
      "is_playoffs": "1",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 16,
@@ -14417,10 +14217,10 @@
       "108.48",
       "97.70"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.6",
      "is_playoffs": "1",
-     "is_consolation": "1",
-     "is_tied": 0
+     "is_consolation": "1"
     },
     {
      "week": 17,
@@ -14432,10 +14232,10 @@
       "130.82",
       "162.94"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.5",
      "is_playoffs": "1",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 17,
@@ -14447,10 +14247,10 @@
       "75.70",
       "131.28"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.10",
      "is_playoffs": "1",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 17,
@@ -14462,10 +14262,10 @@
       "80.76",
       "68.80"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.3",
      "is_playoffs": "1",
-     "is_consolation": "1",
-     "is_tied": 0
+     "is_consolation": "1"
     },
     {
      "week": 17,
@@ -14477,10 +14277,10 @@
       "101.18",
       "94.40"
      ],
+     "status": "postevent",
      "winner": "461.l.268463.t.6",
      "is_playoffs": "1",
-     "is_consolation": "1",
-     "is_tied": 0
+     "is_consolation": "1"
     }
    ],
    "rosters": []
@@ -14489,6 +14289,8 @@
    "league_key": "470.l.222238",
    "name": "Kushner FFL",
    "season": "2026",
+   "is_finished": null,
+   "renew": "461_268463",
    "settings": {
     "scoring_type": "head",
     "start_week": "1",
@@ -14532,209 +14334,7 @@
       "position": "IR",
       "count": 1
      }
-    ],
-    "stat_modifiers": {
-     "stats": [
-      {
-       "stat": {
-        "stat_id": 4,
-        "value": "0.04"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 5,
-        "value": "4"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 6,
-        "value": "-1"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 9,
-        "value": "0.1"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 10,
-        "value": "6"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 11,
-        "value": "0.5"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 12,
-        "value": "0.1"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 13,
-        "value": "6"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 15,
-        "value": "6"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 16,
-        "value": "2"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 18,
-        "value": "-2"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 57,
-        "value": "6"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 19,
-        "value": "3"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 20,
-        "value": "3"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 21,
-        "value": "3"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 22,
-        "value": "4"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 23,
-        "value": "5"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 29,
-        "value": "1"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 32,
-        "value": "1"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 33,
-        "value": "2"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 34,
-        "value": "2"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 35,
-        "value": "6"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 36,
-        "value": "2"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 37,
-        "value": "2"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 49,
-        "value": "6"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 50,
-        "value": "10"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 51,
-        "value": "7"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 52,
-        "value": "4"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 53,
-        "value": "1"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 54,
-        "value": "0"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 55,
-        "value": "-1"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 56,
-        "value": "-4"
-       }
-      },
-      {
-       "stat": {
-        "stat_id": 82,
-        "value": "2"
-       }
-      }
-     ]
-    }
+    ]
    },
    "teams": [
     {
@@ -14922,10 +14522,10 @@
       "123.76",
       "138.72"
      ],
+     "status": "postevent",
      "winner": "470.l.222238.t.5",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 1,
@@ -14937,10 +14537,10 @@
       "120.36",
       "160.36"
      ],
+     "status": "postevent",
      "winner": "470.l.222238.t.6",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 1,
@@ -14952,10 +14552,10 @@
       "141.00",
       "128.26"
      ],
+     "status": "postevent",
      "winner": "470.l.222238.t.3",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 1,
@@ -14967,10 +14567,10 @@
       "115.62",
       "121.16"
      ],
+     "status": "postevent",
      "winner": "470.l.222238.t.7",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 1,
@@ -14982,10 +14582,10 @@
       "101.76",
       "154.66"
      ],
+     "status": "postevent",
      "winner": "470.l.222238.t.10",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 2,
@@ -14997,10 +14597,10 @@
       "116.08",
       "144.08"
      ],
+     "status": "postevent",
      "winner": "470.l.222238.t.10",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 2,
@@ -15012,10 +14612,10 @@
       "84.48",
       "123.52"
      ],
+     "status": "postevent",
      "winner": "470.l.222238.t.8",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 2,
@@ -15027,10 +14627,10 @@
       "96.60",
       "141.78"
      ],
+     "status": "postevent",
      "winner": "470.l.222238.t.9",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 2,
@@ -15042,10 +14642,10 @@
       "83.02",
       "129.86"
      ],
+     "status": "postevent",
      "winner": "470.l.222238.t.5",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 2,
@@ -15057,10 +14657,10 @@
       "81.70",
       "133.22"
      ],
+     "status": "postevent",
      "winner": "470.l.222238.t.7",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 3,
@@ -15072,10 +14672,10 @@
       "122.84",
       "96.66"
      ],
+     "status": "postevent",
      "winner": "470.l.222238.t.1",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 3,
@@ -15087,10 +14687,10 @@
       "82.50",
       "118.08"
      ],
+     "status": "postevent",
      "winner": "470.l.222238.t.9",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 3,
@@ -15102,10 +14702,10 @@
       "122.72",
       "161.84"
      ],
+     "status": "postevent",
      "winner": "470.l.222238.t.10",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 3,
@@ -15117,10 +14717,10 @@
       "109.74",
       "122.66"
      ],
+     "status": "postevent",
      "winner": "470.l.222238.t.7",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 3,
@@ -15132,10 +14732,10 @@
       "126.34",
       "88.64"
      ],
+     "status": "postevent",
      "winner": "470.l.222238.t.6",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 4,
@@ -15147,10 +14747,10 @@
       "130.80",
       "111.24"
      ],
+     "status": "postevent",
      "winner": "470.l.222238.t.1",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 4,
@@ -15162,10 +14762,10 @@
       "121.08",
       "139.38"
      ],
+     "status": "postevent",
      "winner": "470.l.222238.t.4",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 4,
@@ -15177,10 +14777,10 @@
       "141.60",
       "143.42"
      ],
+     "status": "postevent",
      "winner": "470.l.222238.t.10",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 4,
@@ -15192,10 +14792,10 @@
       "134.58",
       "107.52"
      ],
+     "status": "postevent",
      "winner": "470.l.222238.t.6",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 4,
@@ -15207,10 +14807,10 @@
       "109.72",
       "127.56"
      ],
+     "status": "postevent",
      "winner": "470.l.222238.t.8",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 5,
@@ -15222,10 +14822,10 @@
       "136.66",
       "141.42"
      ],
+     "status": "postevent",
      "winner": "470.l.222238.t.6",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 5,
@@ -15237,10 +14837,10 @@
       "137.18",
       "164.46"
      ],
+     "status": "postevent",
      "winner": "470.l.222238.t.4",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 5,
@@ -15252,10 +14852,10 @@
       "113.94",
       "101.44"
      ],
+     "status": "postevent",
      "winner": "470.l.222238.t.3",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 5,
@@ -15267,10 +14867,10 @@
       "166.50",
       "148.80"
      ],
+     "status": "postevent",
      "winner": "470.l.222238.t.7",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
     },
     {
      "week": 5,
@@ -15282,10 +14882,685 @@
       "100.14",
       "116.36"
      ],
+     "status": "postevent",
      "winner": "470.l.222238.t.9",
      "is_playoffs": "0",
-     "is_consolation": "0",
-     "is_tied": 0
+     "is_consolation": "0"
+    },
+    {
+     "week": 6,
+     "teams": [
+      "470.l.222238.t.1",
+      "470.l.222238.t.8"
+     ],
+     "points": [
+      "0.00",
+      "7.40"
+     ],
+     "status": "midevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 6,
+     "teams": [
+      "470.l.222238.t.2",
+      "470.l.222238.t.5"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "midevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 6,
+     "teams": [
+      "470.l.222238.t.3",
+      "470.l.222238.t.10"
+     ],
+     "points": [
+      "0.00",
+      "35.88"
+     ],
+     "status": "midevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 6,
+     "teams": [
+      "470.l.222238.t.4",
+      "470.l.222238.t.6"
+     ],
+     "points": [
+      "5.20",
+      "8.00"
+     ],
+     "status": "midevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 6,
+     "teams": [
+      "470.l.222238.t.7",
+      "470.l.222238.t.9"
+     ],
+     "points": [
+      "12.10",
+      "0.00"
+     ],
+     "status": "midevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 7,
+     "teams": [
+      "470.l.222238.t.1",
+      "470.l.222238.t.9"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 7,
+     "teams": [
+      "470.l.222238.t.2",
+      "470.l.222238.t.10"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 7,
+     "teams": [
+      "470.l.222238.t.3",
+      "470.l.222238.t.7"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 7,
+     "teams": [
+      "470.l.222238.t.4",
+      "470.l.222238.t.8"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 7,
+     "teams": [
+      "470.l.222238.t.5",
+      "470.l.222238.t.6"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 8,
+     "teams": [
+      "470.l.222238.t.1",
+      "470.l.222238.t.7"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 8,
+     "teams": [
+      "470.l.222238.t.2",
+      "470.l.222238.t.3"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 8,
+     "teams": [
+      "470.l.222238.t.4",
+      "470.l.222238.t.9"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 8,
+     "teams": [
+      "470.l.222238.t.5",
+      "470.l.222238.t.8"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 8,
+     "teams": [
+      "470.l.222238.t.6",
+      "470.l.222238.t.10"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 9,
+     "teams": [
+      "470.l.222238.t.1",
+      "470.l.222238.t.4"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 9,
+     "teams": [
+      "470.l.222238.t.2",
+      "470.l.222238.t.7"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 9,
+     "teams": [
+      "470.l.222238.t.3",
+      "470.l.222238.t.6"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 9,
+     "teams": [
+      "470.l.222238.t.5",
+      "470.l.222238.t.9"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 9,
+     "teams": [
+      "470.l.222238.t.8",
+      "470.l.222238.t.10"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 10,
+     "teams": [
+      "470.l.222238.t.1",
+      "470.l.222238.t.5"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 10,
+     "teams": [
+      "470.l.222238.t.2",
+      "470.l.222238.t.6"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 10,
+     "teams": [
+      "470.l.222238.t.3",
+      "470.l.222238.t.8"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 10,
+     "teams": [
+      "470.l.222238.t.4",
+      "470.l.222238.t.7"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 10,
+     "teams": [
+      "470.l.222238.t.9",
+      "470.l.222238.t.10"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 11,
+     "teams": [
+      "470.l.222238.t.1",
+      "470.l.222238.t.10"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 11,
+     "teams": [
+      "470.l.222238.t.2",
+      "470.l.222238.t.8"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 11,
+     "teams": [
+      "470.l.222238.t.3",
+      "470.l.222238.t.9"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 11,
+     "teams": [
+      "470.l.222238.t.4",
+      "470.l.222238.t.5"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 11,
+     "teams": [
+      "470.l.222238.t.6",
+      "470.l.222238.t.7"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 12,
+     "teams": [
+      "470.l.222238.t.1",
+      "470.l.222238.t.3"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 12,
+     "teams": [
+      "470.l.222238.t.2",
+      "470.l.222238.t.9"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 12,
+     "teams": [
+      "470.l.222238.t.4",
+      "470.l.222238.t.10"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 12,
+     "teams": [
+      "470.l.222238.t.5",
+      "470.l.222238.t.7"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 12,
+     "teams": [
+      "470.l.222238.t.6",
+      "470.l.222238.t.8"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 13,
+     "teams": [
+      "470.l.222238.t.1",
+      "470.l.222238.t.2"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 13,
+     "teams": [
+      "470.l.222238.t.3",
+      "470.l.222238.t.4"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 13,
+     "teams": [
+      "470.l.222238.t.5",
+      "470.l.222238.t.10"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 13,
+     "teams": [
+      "470.l.222238.t.6",
+      "470.l.222238.t.9"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 13,
+     "teams": [
+      "470.l.222238.t.7",
+      "470.l.222238.t.8"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 14,
+     "teams": [
+      "470.l.222238.t.1",
+      "470.l.222238.t.6"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 14,
+     "teams": [
+      "470.l.222238.t.2",
+      "470.l.222238.t.4"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 14,
+     "teams": [
+      "470.l.222238.t.3",
+      "470.l.222238.t.5"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 14,
+     "teams": [
+      "470.l.222238.t.7",
+      "470.l.222238.t.10"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
+    },
+    {
+     "week": 14,
+     "teams": [
+      "470.l.222238.t.8",
+      "470.l.222238.t.9"
+     ],
+     "points": [
+      "0.00",
+      "0.00"
+     ],
+     "status": "preevent",
+     "winner": null,
+     "is_playoffs": "0",
+     "is_consolation": "0"
     }
    ],
    "rosters": []
