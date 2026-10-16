@@ -1,5 +1,7 @@
 """Build site/index.html from the template, the fixed 2017 to 2025 history and the Yahoo data."""
-import json, os
+import json, os, sys
+sys.path.insert(0, os.path.dirname(__file__))
+import fun
 
 ROOT = os.path.join(os.path.dirname(__file__), "..")
 static = json.load(open(os.path.join(ROOT, "data", "seasons_static.json")))
@@ -62,12 +64,19 @@ for L in sorted(data["leagues"], key=lambda L: int(L["season"])):
         NX[y] = names
 
 S.sort(key=lambda r: (r["year"], r["rank"]))
+SLOTS = {int(L["season"]): [(p["position"], int(p["count"])) for p in L["settings"]["roster_positions"] if p["position"] not in ("BN", "IR")]
+         for L in data["leagues"]}
+fun.NAMES = {"josh": "Josh Teich", "younger": "Zach Younger", "huppert": "Ben Huppert", "sinnreich": "Ethan Sinnreich",
+             "mitch": "Mitch Liebov", "david": "David Reich", "nate": "Nate Savitz", "brandon": "Brandon Dyckman",
+             "daniel": "Daniel Lando", "shap": "Jacob Shapiro", "zuck": "Jacob Zuckerman", "maryles": "Sammy Maryles", "dunec": "David Dunec"}
+FUN = fun.compute(G, {y: {int(w): v for w, v in d.items()} for y, d in LU.items()}, S, SLOTS)
 cur = max(unfinished) if unfinished else 0
 html = (tpl.replace("__S__", json.dumps(S, ensure_ascii=False, separators=(",", ":")))
            .replace("__G__", json.dumps(G, ensure_ascii=False, separators=(",", ":")))
            .replace("__NX__", json.dumps(NX, ensure_ascii=False, separators=(",", ":")))
            .replace("__CUR__", str(cur))
-           .replace("__LY__", json.dumps(sorted(LU))))
+           .replace("__LY__", json.dumps(sorted(LU)))
+           .replace("__FUN__", json.dumps(FUN, ensure_ascii=False, separators=(",", ":"))))
 os.makedirs(os.path.join(ROOT, "public"), exist_ok=True)
 open(os.path.join(ROOT, "public", "index.html"), "w").write(html)
 os.makedirs(os.path.join(ROOT, "public", "lineups"), exist_ok=True)

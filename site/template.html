@@ -279,6 +279,15 @@ table.lu td.slot{color:var(--muted);font:700 13px var(--display);width:44px}
 table.lu tr.bench td{color:var(--muted)}
 table.lu tr.lutot td{font-weight:700;background:var(--bg)}
 @media (max-width:760px){.lugrid{grid-template-columns:1fr}.lucol + .lucol{border-left:0;border-top:1px solid var(--line)}}
+
+.spot{padding:20px 22px;margin-bottom:6px;border-left:6px solid var(--gold);background:linear-gradient(120deg,var(--surface),var(--gold-soft))}
+.spoth{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
+.spoth span{font:600 13.5px var(--body);color:var(--muted)}
+.spoth button{border:0;background:var(--blue-d);color:#fff;border-radius:8px;padding:7px 16px;cursor:pointer;font:700 16px var(--display)}
+.spott{font:italic 800 26px var(--display)}
+.spotv{font:italic 900 52px/1.05 var(--display);margin:4px 0}
+.spotv.gold{color:var(--gold)} .spotv.bad{color:var(--red)}
+.spotc{color:var(--muted);margin-top:4px;max-width:70ch}
 </style>
 </head>
 <body>
@@ -300,6 +309,7 @@ table.lu tr.lutot td{font-weight:700;background:var(--bg)}
   <div class="navgroup"><h4>Weekly data</h4>
     <a class="nav" href="#h2h"><svg viewBox="0 0 24 24"><path d="M4 7h13l-3-3M20 17H7l3 3"/></svg>Head to head</a>
     <a class="nav" href="#matchups"><svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>Matchups</a>
+    <a class="nav" href="#wild"><svg viewBox="0 0 24 24"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></svg>Wild stats</a>
   </div>
   <div class="sidefoot"><button id="themeBtn" type="button">Switch to dark</button></div>
 </aside>
@@ -384,6 +394,12 @@ table.lu tr.lutot td{font-weight:700;background:var(--bg)}
   <div class="panel scroll"><table id="namesTable"></table></div>
 </section>
 
+<section class="view" data-view="wild" hidden>
+  <div class="vh"><div><h2>Wild stats</h2><p>The weird, the lucky and the embarrassing, pulled from every game and every lineup. Updates every week.</p></div></div>
+  <div class="panel spot" id="wildSpot"></div>
+  <div id="wildList"></div>
+</section>
+
 <section class="view" data-view="h2h" hidden>
   <div class="vh"><div><h2>Head to head</h2><p>Every manager against every other manager. Read across a row for that manager's record against each opponent, then pick a record to see every game between them.</p></div></div>
   <div class="controls"><div class="ctl"><span>Games</span><div class="seg" role="group" aria-label="Games" id="hhK"><button data-k="all" aria-pressed="true">All</button><button data-k="r" aria-pressed="false">Regular season</button><button data-k="p" aria-pressed="false">Playoffs</button></div></div><div class="ctl"><span>Scoring</span><div class="seg" role="group" aria-label="Scoring era" id="hhSc"><button data-sc="all" aria-pressed="true">All</button><button data-sc="std" aria-pressed="false">Standard</button><button data-sc="half" aria-pressed="false">Half PPR</button></div></div><div class="ctl"><span>Lineup</span><div class="seg" role="group" aria-label="Lineup era" id="hhLn"><button data-ln="all" aria-pressed="true">All</button><button data-ln="w2" aria-pressed="false">2 WR</button><button data-ln="w3" aria-pressed="false">3 WR</button></div></div></div>
@@ -413,6 +429,7 @@ const G = __G__.map(a=>({y:a[0],w:a[1],a:a[2],b:a[3],pa:a[4],pb:a[5],k:a[6]}));
 const NX = __NX__;
 const CUR = __CUR__;
 const LINEUP_YEARS = __LY__;
+const FUN = __FUN__;
 const sideHas=(side,key)=>key.includes("+")?side===key:side.split("+").includes(key);
 const sideOwners=side=>side.split("+");
 function gameRec(key,games){let w=0,l=0,t=0,pf=0,pa=0;
@@ -866,6 +883,20 @@ document.addEventListener("click",e=>{const b=e.target.closest(".mgr,.pcard"); i
   $("#muWeeks").addEventListener("click",e=>{const b=e.target.closest("[data-w]"); if(!b)return; w=+b.dataset.w; open=null; draw();});
   $("#muList").addEventListener("click",e=>{const b=e.target.closest(".lubtn"); if(!b)return; const i=+b.dataset.i; open=open===i?null:i; draw(); if(open!==null) setTimeout(()=>$("#muDetail").scrollIntoView({behavior:"smooth",block:"start"}),50);});
   draw();
+})();
+
+/* Wild stats */
+(function(){
+  if(!FUN.length){ $("#wildList").innerHTML='<p class="hint">Wild stats appear once the weekly data is in.</p>'; $("#wildSpot").hidden=true; return; }
+  const who=ids=>ids.map(id=>M[id]?`<span class="dot" style="background:${M[id].c}"></span>${personBtn(id)}`:"").join("&nbsp;&nbsp; ");
+  const cardHtml=c=>recCard(esc(c.t),esc(c.v),who(c.who),esc(c.ctx),c.cls);
+  const secs=[...new Set(FUN.map(c=>c.sec))];
+  $("#wildList").innerHTML=secs.map(s=>`<h3 class="subh">${esc(s)}</h3><div class="recs">${FUN.filter(c=>c.sec===s).map(cardHtml).join("")}</div>`).join("");
+  let last=-1;
+  function spot(){ let i; do{ i=Math.floor(Math.random()*FUN.length); }while(FUN.length>1&&i===last); last=i; const c=FUN[i];
+    $("#wildSpot").innerHTML=`<div class="spoth"><span>Random stat</span><button type="button" id="wildShuffle">Shuffle</button></div><div class="spott">${esc(c.t)}</div><div class="spotv ${c.cls}">${esc(c.v)}</div><div>${who(c.who)}</div><div class="spotc">${esc(c.ctx)}</div>`;
+    $("#wildShuffle").onclick=spot; }
+  spot();
 })();
 
 /* Ask the league: AI chat over the league data, using the viewer's own Claude account */
