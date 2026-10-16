@@ -1,0 +1,1770 @@
+[
+ {
+  "year": 2017,
+  "rank": 1,
+  "playoffs": true,
+  "team": "ImWittenForKareem",
+  "w": 8,
+  "l": 5,
+  "t": 0,
+  "pf": 1235.6,
+  "pa": 1347.38,
+  "streak": "W-1",
+  "waiver": 9,
+  "moves": 34,
+  "owners": [
+   "josh"
+  ],
+  "seed": 2,
+  "prov": false
+ },
+ {
+  "year": 2017,
+  "rank": 2,
+  "playoffs": true,
+  "team": "Sinnys coZy coRner",
+  "w": 7,
+  "l": 6,
+  "t": 0,
+  "pf": 1228.38,
+  "pa": 1133.78,
+  "streak": "W-3",
+  "waiver": 8,
+  "moves": 20,
+  "owners": [
+   "sinnreich"
+  ],
+  "seed": 4,
+  "prov": false
+ },
+ {
+  "year": 2017,
+  "rank": 3,
+  "playoffs": true,
+  "team": "Zachary’s Team",
+  "w": 8,
+  "l": 5,
+  "t": 0,
+  "pf": 1246.24,
+  "pa": 1236.24,
+  "streak": "L-2",
+  "waiver": 6,
+  "moves": 60,
+  "owners": [
+   "younger"
+  ],
+  "seed": 1,
+  "prov": false
+ },
+ {
+  "year": 2017,
+  "rank": 4,
+  "playoffs": true,
+  "team": "I'm thielen lucky",
+  "w": 7,
+  "l": 6,
+  "t": 0,
+  "pf": 1164.76,
+  "pa": 1103.86,
+  "streak": "L-1",
+  "waiver": 3,
+  "moves": 57,
+  "owners": [
+   "mitch"
+  ],
+  "seed": 6,
+  "prov": false
+ },
+ {
+  "year": 2017,
+  "rank": 5,
+  "playoffs": true,
+  "team": "My hanger snapped",
+  "w": 8,
+  "l": 5,
+  "t": 0,
+  "pf": 1207.68,
+  "pa": 1101.02,
+  "streak": "L-1",
+  "waiver": 10,
+  "moves": 54,
+  "owners": [
+   "huppert"
+  ],
+  "seed": 3,
+  "prov": false
+ },
+ {
+  "year": 2017,
+  "rank": 6,
+  "playoffs": true,
+  "team": "Fuck Le’Veon Bell",
+  "w": 7,
+  "l": 6,
+  "t": 0,
+  "pf": 1210.6,
+  "pa": 1177.16,
+  "streak": "L-1",
+  "waiver": 4,
+  "moves": 8,
+  "owners": [
+   "nate"
+  ],
+  "seed": 5,
+  "prov": false
+ },
+ {
+  "year": 2017,
+  "rank": 7,
+  "playoffs": false,
+  "team": "Myteamused2be2-0",
+  "w": 5,
+  "l": 8,
+  "t": 0,
+  "pf": 1116.36,
+  "pa": 1221.98,
+  "streak": "W-1",
+  "waiver": 7,
+  "moves": 65,
+  "owners": [
+   "maryles"
+  ],
+  "seed": 9,
+  "prov": false
+ },
+ {
+  "year": 2017,
+  "rank": 8,
+  "playoffs": false,
+  "team": "My crispy cok",
+  "w": 4,
+  "l": 9,
+  "t": 0,
+  "pf": 1085.78,
+  "pa": 1229.68,
+  "streak": "L-6",
+  "waiver": 5,
+  "moves": 38,
+  "owners": [
+   "dunec"
+  ],
+  "seed": 10,
+  "prov": false
+ },
+ {
+  "year": 2017,
+  "rank": 9,
+  "playoffs": false,
+  "team": "King of the Hill",
+  "w": 5,
+  "l": 8,
+  "t": 0,
+  "pf": 1131.58,
+  "pa": 1150.44,
+  "streak": "W-1",
+  "waiver": 2,
+  "moves": 51,
+  "owners": [
+   "david"
+  ],
+  "seed": 8,
+  "prov": false
+ },
+ {
+  "year": 2017,
+  "rank": 10,
+  "playoffs": false,
+  "team": "T.Y. Dolla $ign",
+  "w": 6,
+  "l": 7,
+  "t": 0,
+  "pf": 1285.8,
+  "pa": 1211.24,
+  "streak": "W-2",
+  "waiver": 1,
+  "moves": 23,
+  "owners": [
+   "brandon"
+  ],
+  "seed": 7,
+  "prov": false
+ },
+ {
+  "year": 2018,
+  "rank": 1,
+  "playoffs": true,
+  "team": "Brown People",
+  "w": 8,
+  "l": 5,
+  "t": 0,
+  "pf": 1420.74,
+  "pa": 1287,
+  "streak": "W-3",
+  "waiver": 9,
+  "moves": 71,
+  "owners": [
+   "david"
+  ],
+  "seed": 4,
+  "prov": false
+ },
+ {
+  "year": 2018,
+  "rank": 2,
+  "playoffs": true,
+  "team": "Fuck Le’veon Bell",
+  "w": 9,
+  "l": 4,
+  "t": 0,
+  "pf": 1361.94,
+  "pa": 1254,
+  "streak": "L-1",
+  "waiver": 3,
+  "moves": 13,
+  "owners": [
+   "nate"
+  ],
+  "seed": 3,
+  "prov": false
+ },
+ {
+  "year": 2018,
+  "rank": 3,
+  "playoffs": true,
+  "team": "Not saved bythe bell",
+  "w": 9,
+  "l": 4,
+  "t": 0,
+  "pf": 1493,
+  "pa": 1333.76,
+  "streak": "W-2",
+  "waiver": 6,
+  "moves": 44,
+  "owners": [
+   "brandon"
+  ],
+  "seed": 1,
+  "prov": false
+ },
+ {
+  "year": 2018,
+  "rank": 4,
+  "playoffs": true,
+  "team": "Tatties tities",
+  "w": 9,
+  "l": 4,
+  "t": 0,
+  "pf": 1376.6,
+  "pa": 1359.64,
+  "streak": "W-1",
+  "waiver": 10,
+  "moves": 18,
+  "owners": [
+   "dunec"
+  ],
+  "seed": 2,
+  "prov": false
+ },
+ {
+  "year": 2018,
+  "rank": 5,
+  "playoffs": true,
+  "team": "Josh’s team",
+  "w": 8,
+  "l": 5,
+  "t": 0,
+  "pf": 1398.22,
+  "pa": 1372.4,
+  "streak": "W-6",
+  "waiver": 2,
+  "moves": 33,
+  "owners": [
+   "josh"
+  ],
+  "seed": 5,
+  "prov": false
+ },
+ {
+  "year": 2018,
+  "rank": 6,
+  "playoffs": true,
+  "team": "Ethan's Team",
+  "w": 7,
+  "l": 6,
+  "t": 0,
+  "pf": 1391.48,
+  "pa": 1365.32,
+  "streak": "L-3",
+  "waiver": 7,
+  "moves": 24,
+  "owners": [
+   "sinnreich"
+  ],
+  "seed": 6,
+  "prov": false
+ },
+ {
+  "year": 2018,
+  "rank": 7,
+  "playoffs": false,
+  "team": "Cops and Rodgers",
+  "w": 4,
+  "l": 9,
+  "t": 0,
+  "pf": 1285.88,
+  "pa": 1411.92,
+  "streak": "L-7",
+  "waiver": 1,
+  "moves": 52,
+  "owners": [
+   "maryles"
+  ],
+  "seed": 9,
+  "prov": false
+ },
+ {
+  "year": 2018,
+  "rank": 8,
+  "playoffs": false,
+  "team": "Zachary’s Team",
+  "w": 1,
+  "l": 12,
+  "t": 0,
+  "pf": 1284.88,
+  "pa": 1524.5,
+  "streak": "L-9",
+  "waiver": 8,
+  "moves": 35,
+  "owners": [
+   "younger"
+  ],
+  "seed": 10,
+  "prov": false
+ },
+ {
+  "year": 2018,
+  "rank": 9,
+  "playoffs": false,
+  "team": "The IR",
+  "w": 5,
+  "l": 8,
+  "t": 0,
+  "pf": 1231.8,
+  "pa": 1284.52,
+  "streak": "L-2",
+  "waiver": 5,
+  "moves": 52,
+  "owners": [
+   "mitch"
+  ],
+  "seed": 8,
+  "prov": false
+ },
+ {
+  "year": 2018,
+  "rank": 10,
+  "playoffs": false,
+  "team": "Alvin & da chipmunks",
+  "w": 5,
+  "l": 8,
+  "t": 0,
+  "pf": 1288.38,
+  "pa": 1339.86,
+  "streak": "W-2",
+  "waiver": 4,
+  "moves": 28,
+  "owners": [
+   "huppert"
+  ],
+  "seed": 7,
+  "prov": false
+ },
+ {
+  "year": 2019,
+  "rank": 1,
+  "playoffs": true,
+  "team": "Lamar=🐐",
+  "w": 8,
+  "l": 5,
+  "t": 0,
+  "pf": 1335.82,
+  "pa": 1307.48,
+  "streak": "L-1",
+  "waiver": 8,
+  "moves": 41,
+  "owners": [
+   "younger"
+  ],
+  "seed": 4,
+  "prov": false
+ },
+ {
+  "year": 2019,
+  "rank": 2,
+  "playoffs": true,
+  "team": "Baking up a dub",
+  "w": 11,
+  "l": 2,
+  "t": 0,
+  "pf": 1417.98,
+  "pa": 1125.24,
+  "streak": "W-6",
+  "waiver": 9,
+  "moves": 38,
+  "owners": [
+   "brandon"
+  ],
+  "seed": 1,
+  "prov": false
+ },
+ {
+  "year": 2019,
+  "rank": 3,
+  "playoffs": true,
+  "team": "Road to 100",
+  "w": 8,
+  "l": 5,
+  "t": 0,
+  "pf": 1350.92,
+  "pa": 1188.56,
+  "streak": "W-1",
+  "waiver": 6,
+  "moves": 35,
+  "owners": [
+   "sinnreich"
+  ],
+  "seed": 2,
+  "prov": false
+ },
+ {
+  "year": 2019,
+  "rank": 4,
+  "playoffs": true,
+  "team": "COMEBACK SZN",
+  "w": 6,
+  "l": 7,
+  "t": 0,
+  "pf": 1272.52,
+  "pa": 1286.78,
+  "streak": "L-1",
+  "waiver": 3,
+  "moves": 51,
+  "owners": [
+   "mitch"
+  ],
+  "seed": 6,
+  "prov": false
+ },
+ {
+  "year": 2019,
+  "rank": 5,
+  "playoffs": true,
+  "team": "JT 5-0 Downfall🌊🌊🌊",
+  "w": 8,
+  "l": 5,
+  "t": 0,
+  "pf": 1349.34,
+  "pa": 1292.54,
+  "streak": "L-1",
+  "waiver": 5,
+  "moves": 35,
+  "owners": [
+   "josh"
+  ],
+  "seed": 3,
+  "prov": false
+ },
+ {
+  "year": 2019,
+  "rank": 6,
+  "playoffs": true,
+  "team": "Alvin & da chipmunks",
+  "w": 7,
+  "l": 6,
+  "t": 0,
+  "pf": 1352.32,
+  "pa": 1321.48,
+  "streak": "L-1",
+  "waiver": 2,
+  "moves": 19,
+  "owners": [
+   "huppert"
+  ],
+  "seed": 5,
+  "prov": false
+ },
+ {
+  "year": 2019,
+  "rank": 7,
+  "playoffs": false,
+  "team": "My team is ass",
+  "w": 3,
+  "l": 10,
+  "t": 0,
+  "pf": 1224.28,
+  "pa": 1437.18,
+  "streak": "W-1",
+  "waiver": 4,
+  "moves": 61,
+  "owners": [
+   "maryles"
+  ],
+  "seed": 9,
+  "prov": false
+ },
+ {
+  "year": 2019,
+  "rank": 8,
+  "playoffs": false,
+  "team": "Full Send",
+  "w": 6,
+  "l": 7,
+  "t": 0,
+  "pf": 1203.3,
+  "pa": 1203.68,
+  "streak": "W-1",
+  "waiver": 7,
+  "moves": 38,
+  "owners": [
+   "daniel",
+   "shap"
+  ],
+  "seed": 7,
+  "prov": false
+ },
+ {
+  "year": 2019,
+  "rank": 9,
+  "playoffs": false,
+  "team": "King of the hill",
+  "w": 3,
+  "l": 10,
+  "t": 0,
+  "pf": 1171.74,
+  "pa": 1435.14,
+  "streak": "L-2",
+  "waiver": 10,
+  "moves": 56,
+  "owners": [
+   "david"
+  ],
+  "seed": 10,
+  "prov": false
+ },
+ {
+  "year": 2019,
+  "rank": 10,
+  "playoffs": false,
+  "team": "Fuck Le’veon Bell",
+  "w": 5,
+  "l": 8,
+  "t": 0,
+  "pf": 1190.16,
+  "pa": 1270.3,
+  "streak": "W-1",
+  "waiver": 1,
+  "moves": 14,
+  "owners": [
+   "nate"
+  ],
+  "seed": 8,
+  "prov": false
+ },
+ {
+  "year": 2020,
+  "rank": 1,
+  "playoffs": true,
+  "team": "Dalvin&TheChipmunks",
+  "w": 8,
+  "l": 5,
+  "t": 0,
+  "pf": 1486.32,
+  "pa": 1290.74,
+  "streak": "W-2",
+  "waiver": 10,
+  "moves": 42,
+  "owners": [
+   "huppert"
+  ],
+  "seed": 4,
+  "prov": false
+ },
+ {
+  "year": 2020,
+  "rank": 2,
+  "playoffs": true,
+  "team": "SHMON💰🤑💵",
+  "w": 9,
+  "l": 4,
+  "t": 0,
+  "pf": 1425.7,
+  "pa": 1234.1,
+  "streak": "L-1",
+  "waiver": 1,
+  "moves": 26,
+  "owners": [
+   "josh"
+  ],
+  "seed": 3,
+  "prov": false
+ },
+ {
+  "year": 2020,
+  "rank": 3,
+  "playoffs": true,
+  "team": "My Chubby Johnson",
+  "w": 10,
+  "l": 3,
+  "t": 0,
+  "pf": 1343.9,
+  "pa": 1255.88,
+  "streak": "W-4",
+  "waiver": 7,
+  "moves": 74,
+  "owners": [
+   "maryles"
+  ],
+  "seed": 2,
+  "prov": false
+ },
+ {
+  "year": 2020,
+  "rank": 4,
+  "playoffs": true,
+  "team": "ETHANS EXPERT GAME",
+  "w": 10,
+  "l": 3,
+  "t": 0,
+  "pf": 1461.12,
+  "pa": 1288.36,
+  "streak": "W-4",
+  "waiver": 6,
+  "moves": 44,
+  "owners": [
+   "sinnreich"
+  ],
+  "seed": 1,
+  "prov": false
+ },
+ {
+  "year": 2020,
+  "rank": 5,
+  "playoffs": true,
+  "team": "Travy Patty",
+  "w": 5,
+  "l": 8,
+  "t": 0,
+  "pf": 1326.4,
+  "pa": 1386.52,
+  "streak": "W-1",
+  "waiver": 4,
+  "moves": 37,
+  "owners": [
+   "younger"
+  ],
+  "seed": 6,
+  "prov": false
+ },
+ {
+  "year": 2020,
+  "rank": 6,
+  "playoffs": true,
+  "team": "Kareem in a Kupp",
+  "w": 6,
+  "l": 7,
+  "t": 0,
+  "pf": 1225.56,
+  "pa": 1338.9,
+  "streak": "L-3",
+  "waiver": 5,
+  "moves": 47,
+  "owners": [
+   "david"
+  ],
+  "seed": 5,
+  "prov": false
+ },
+ {
+  "year": 2020,
+  "rank": 7,
+  "playoffs": false,
+  "team": "The IR part 36483863",
+  "w": 5,
+  "l": 8,
+  "t": 0,
+  "pf": 1207.42,
+  "pa": 1344.5,
+  "streak": "L-3",
+  "waiver": 3,
+  "moves": 35,
+  "owners": [
+   "mitch"
+  ],
+  "seed": 8,
+  "prov": false
+ },
+ {
+  "year": 2020,
+  "rank": 8,
+  "playoffs": false,
+  "team": "Steelers Nation",
+  "w": 3,
+  "l": 10,
+  "t": 0,
+  "pf": 1176.68,
+  "pa": 1297.32,
+  "streak": "L-8",
+  "waiver": 2,
+  "moves": 45,
+  "owners": [
+   "brandon"
+  ],
+  "seed": 10,
+  "prov": false
+ },
+ {
+  "year": 2020,
+  "rank": 9,
+  "playoffs": false,
+  "team": "Fuck Brandon",
+  "w": 5,
+  "l": 8,
+  "t": 0,
+  "pf": 1236.36,
+  "pa": 1368.26,
+  "streak": "W-1",
+  "waiver": 8,
+  "moves": 19,
+  "owners": [
+   "nate"
+  ],
+  "seed": 7,
+  "prov": false
+ },
+ {
+  "year": 2020,
+  "rank": 10,
+  "playoffs": false,
+  "team": "GodWinter is Here",
+  "w": 4,
+  "l": 9,
+  "t": 0,
+  "pf": 1239.04,
+  "pa": 1323.92,
+  "streak": "L-1",
+  "waiver": 9,
+  "moves": 45,
+  "owners": [
+   "daniel",
+   "shap"
+  ],
+  "seed": 9,
+  "prov": false
+ },
+ {
+  "year": 2021,
+  "rank": 1,
+  "playoffs": true,
+  "team": "SamFantasy30",
+  "w": 11,
+  "l": 3,
+  "t": 0,
+  "pf": 1478.16,
+  "pa": 1348.12,
+  "streak": "W-1",
+  "faab_left": 0,
+  "waiver": 9,
+  "moves": 64,
+  "owners": [
+   "maryles"
+  ],
+  "seed": 1,
+  "prov": false
+ },
+ {
+  "year": 2021,
+  "rank": 2,
+  "playoffs": true,
+  "team": "Brown people",
+  "w": 9,
+  "l": 5,
+  "t": 0,
+  "pf": 1394.38,
+  "pa": 1399.44,
+  "streak": "L-3",
+  "faab_left": 0,
+  "waiver": 8,
+  "moves": 70,
+  "owners": [
+   "david"
+  ],
+  "seed": 2,
+  "prov": false
+ },
+ {
+  "year": 2021,
+  "rank": 3,
+  "playoffs": true,
+  "team": "Equillibwium",
+  "w": 7,
+  "l": 7,
+  "t": 0,
+  "pf": 1549.5,
+  "pa": 1422.72,
+  "streak": "L-3",
+  "faab_left": 79,
+  "waiver": 6,
+  "moves": 46,
+  "owners": [
+   "daniel",
+   "shap"
+  ],
+  "seed": 4,
+  "prov": false
+ },
+ {
+  "year": 2021,
+  "rank": 4,
+  "playoffs": true,
+  "team": "ETHANS EXPERT GAME",
+  "w": 7,
+  "l": 7,
+  "t": 0,
+  "pf": 1317.74,
+  "pa": 1413.96,
+  "streak": "W-3",
+  "faab_left": 0,
+  "waiver": 4,
+  "moves": 38,
+  "owners": [
+   "sinnreich"
+  ],
+  "seed": 6,
+  "prov": false
+ },
+ {
+  "year": 2021,
+  "rank": 5,
+  "playoffs": true,
+  "team": "Bishop Sycamore",
+  "w": 8,
+  "l": 6,
+  "t": 0,
+  "pf": 1400.28,
+  "pa": 1460.1,
+  "streak": "L-1",
+  "faab_left": 59,
+  "waiver": 7,
+  "moves": 40,
+  "owners": [
+   "younger"
+  ],
+  "seed": 3,
+  "prov": false
+ },
+ {
+  "year": 2021,
+  "rank": 6,
+  "playoffs": true,
+  "team": "Fuck Tom Brady",
+  "w": 7,
+  "l": 7,
+  "t": 0,
+  "pf": 1516.78,
+  "pa": 1399.92,
+  "streak": "L-1",
+  "faab_left": 32,
+  "waiver": 5,
+  "moves": 10,
+  "owners": [
+   "nate"
+  ],
+  "seed": 5,
+  "prov": false
+ },
+ {
+  "year": 2021,
+  "rank": 7,
+  "playoffs": false,
+  "team": "Atlanta Flacons",
+  "w": 4,
+  "l": 10,
+  "t": 0,
+  "pf": 1356.14,
+  "pa": 1407.06,
+  "streak": "W-3",
+  "faab_left": 42,
+  "waiver": 1,
+  "moves": 19,
+  "owners": [
+   "huppert"
+  ],
+  "seed": 10,
+  "prov": false
+ },
+ {
+  "year": 2021,
+  "rank": 8,
+  "playoffs": false,
+  "team": "I have a Phat Bass",
+  "w": 6,
+  "l": 8,
+  "t": 0,
+  "pf": 1348.9,
+  "pa": 1433.78,
+  "streak": "L-3",
+  "faab_left": 58,
+  "waiver": 2,
+  "moves": 20,
+  "owners": [
+   "mitch"
+  ],
+  "seed": 8,
+  "prov": false
+ },
+ {
+  "year": 2021,
+  "rank": 9,
+  "playoffs": false,
+  "team": "JTs 0-5 Riseup 🌋🌋🌋",
+  "w": 6,
+  "l": 8,
+  "t": 0,
+  "pf": 1374.96,
+  "pa": 1328.7,
+  "streak": "W-4",
+  "faab_left": 9,
+  "waiver": 3,
+  "moves": 36,
+  "owners": [
+   "josh"
+  ],
+  "seed": 7,
+  "prov": false
+ },
+ {
+  "year": 2021,
+  "rank": 10,
+  "playoffs": false,
+  "team": "That’s a lot of Kareem!🤤",
+  "w": 5,
+  "l": 9,
+  "t": 0,
+  "pf": 1370.22,
+  "pa": 1493.26,
+  "streak": "W-1",
+  "faab_left": 0,
+  "waiver": 10,
+  "moves": 35,
+  "owners": [
+   "brandon"
+  ],
+  "seed": 9,
+  "prov": false
+ },
+ {
+  "year": 2022,
+  "rank": 1,
+  "playoffs": true,
+  "team": "Deeznutz Hurts",
+  "w": 10,
+  "l": 4,
+  "t": 0,
+  "pf": 1590.62,
+  "pa": 1466.32,
+  "streak": "W-2",
+  "faab_left": 0,
+  "waiver": 9,
+  "moves": 34,
+  "owners": [
+   "huppert"
+  ],
+  "seed": 2,
+  "prov": false
+ },
+ {
+  "year": 2022,
+  "rank": 2,
+  "playoffs": true,
+  "team": "Fuck Le'Veon Bell",
+  "w": 7,
+  "l": 7,
+  "t": 0,
+  "pf": 1467.22,
+  "pa": 1543.6,
+  "streak": "L-1",
+  "faab_left": 27,
+  "waiver": 5,
+  "moves": 17,
+  "owners": [
+   "nate"
+  ],
+  "seed": 6,
+  "prov": false
+ },
+ {
+  "year": 2022,
+  "rank": 3,
+  "playoffs": true,
+  "team": "Darnell Mooned Me",
+  "w": 10,
+  "l": 4,
+  "t": 0,
+  "pf": 1633.24,
+  "pa": 1478.06,
+  "streak": "W-4",
+  "faab_left": 27,
+  "waiver": 10,
+  "moves": 33,
+  "owners": [
+   "brandon"
+  ],
+  "seed": 1,
+  "prov": false
+ },
+ {
+  "year": 2022,
+  "rank": 4,
+  "playoffs": true,
+  "team": "Jesse we need to COOK",
+  "w": 8,
+  "l": 6,
+  "t": 0,
+  "pf": 1564.56,
+  "pa": 1496.7,
+  "streak": "L-1",
+  "faab_left": 0,
+  "waiver": 7,
+  "moves": 40,
+  "owners": [
+   "younger"
+  ],
+  "seed": 4,
+  "prov": false
+ },
+ {
+  "year": 2022,
+  "rank": 5,
+  "playoffs": true,
+  "team": "What u doing step burrow ;)",
+  "w": 8,
+  "l": 6,
+  "t": 0,
+  "pf": 1545.84,
+  "pa": 1440.44,
+  "streak": "W-1",
+  "faab_left": 0,
+  "waiver": 6,
+  "moves": 35,
+  "owners": [
+   "mitch"
+  ],
+  "seed": 5,
+  "prov": false
+ },
+ {
+  "year": 2022,
+  "rank": 6,
+  "playoffs": true,
+  "team": "🤑$HMÕŃĒŸ💸",
+  "w": 9,
+  "l": 5,
+  "t": 0,
+  "pf": 1804.64,
+  "pa": 1634.7,
+  "streak": "L-1",
+  "faab_left": 38,
+  "waiver": 8,
+  "moves": 36,
+  "owners": [
+   "josh"
+  ],
+  "seed": 3,
+  "prov": false
+ },
+ {
+  "year": 2022,
+  "rank": 7,
+  "playoffs": false,
+  "team": "Equillibwium",
+  "w": 3,
+  "l": 11,
+  "t": 0,
+  "pf": 1394.72,
+  "pa": 1615.34,
+  "streak": "L-6",
+  "faab_left": 91,
+  "waiver": 1,
+  "moves": 27,
+  "owners": [
+   "daniel",
+   "shap"
+  ],
+  "seed": 10,
+  "prov": false
+ },
+ {
+  "year": 2022,
+  "rank": 8,
+  "playoffs": false,
+  "team": "ETHANS EXPERT GAME",
+  "w": 5,
+  "l": 9,
+  "t": 0,
+  "pf": 1489,
+  "pa": 1586.68,
+  "streak": "L-3",
+  "faab_left": 33,
+  "waiver": 3,
+  "moves": 30,
+  "owners": [
+   "sinnreich"
+  ],
+  "seed": 8,
+  "prov": false
+ },
+ {
+  "year": 2022,
+  "rank": 9,
+  "playoffs": false,
+  "team": "SamFantasy30",
+  "w": 5,
+  "l": 9,
+  "t": 0,
+  "pf": 1551.38,
+  "pa": 1585.52,
+  "streak": "W-1",
+  "faab_left": 38,
+  "waiver": 4,
+  "moves": 35,
+  "owners": [
+   "maryles"
+  ],
+  "seed": 7,
+  "prov": false
+ },
+ {
+  "year": 2022,
+  "rank": 10,
+  "playoffs": false,
+  "team": "White people",
+  "w": 5,
+  "l": 9,
+  "t": 0,
+  "pf": 1209.92,
+  "pa": 1403.78,
+  "streak": "W-1",
+  "faab_left": 0,
+  "waiver": 2,
+  "moves": 51,
+  "owners": [
+   "david"
+  ],
+  "seed": 9,
+  "prov": false
+ },
+ {
+  "year": 2023,
+  "rank": 1,
+  "playoffs": true,
+  "team": "Better Call Hall",
+  "w": 8,
+  "l": 6,
+  "t": 0,
+  "pf": 1552.56,
+  "pa": 1442.86,
+  "streak": "W-2",
+  "faab_left": 4,
+  "waiver": 7,
+  "moves": 45,
+  "owners": [
+   "younger"
+  ],
+  "seed": 4,
+  "prov": false
+ },
+ {
+  "year": 2023,
+  "rank": 2,
+  "playoffs": true,
+  "team": "Above and Bijan",
+  "w": 7,
+  "l": 7,
+  "t": 0,
+  "pf": 1508.36,
+  "pa": 1553.44,
+  "streak": "L-3",
+  "faab_left": 0,
+  "waiver": 5,
+  "moves": 48,
+  "owners": [
+   "huppert"
+  ],
+  "seed": 6,
+  "prov": false
+ },
+ {
+  "year": 2023,
+  "rank": 3,
+  "playoffs": true,
+  "team": "Daniel's Dazzling Team",
+  "w": 11,
+  "l": 3,
+  "t": 0,
+  "pf": 1732.9,
+  "pa": 1489.64,
+  "streak": "W-4",
+  "faab_left": 76,
+  "waiver": 10,
+  "moves": 10,
+  "owners": [
+   "daniel",
+   "shap"
+  ],
+  "seed": 1,
+  "prov": false
+ },
+ {
+  "year": 2023,
+  "rank": 4,
+  "playoffs": true,
+  "team": "Fuck Le’Veon Bell",
+  "w": 8,
+  "l": 6,
+  "t": 0,
+  "pf": 1622.14,
+  "pa": 1498.08,
+  "streak": "L-1",
+  "faab_left": 49,
+  "waiver": 9,
+  "moves": 10,
+  "owners": [
+   "nate"
+  ],
+  "seed": 2,
+  "prov": false
+ },
+ {
+  "year": 2023,
+  "rank": 5,
+  "playoffs": true,
+  "team": "Tuck’s plantation",
+  "w": 8,
+  "l": 6,
+  "t": 0,
+  "pf": 1563.58,
+  "pa": 1509.74,
+  "streak": "L-2",
+  "faab_left": 69,
+  "waiver": 8,
+  "moves": 25,
+  "owners": [
+   "mitch"
+  ],
+  "seed": 3,
+  "prov": false
+ },
+ {
+  "year": 2023,
+  "rank": 6,
+  "playoffs": true,
+  "team": "Double D Kupps",
+  "w": 8,
+  "l": 6,
+  "t": 0,
+  "pf": 1492.62,
+  "pa": 1439.8,
+  "streak": "W-2",
+  "faab_left": 3,
+  "waiver": 6,
+  "moves": 38,
+  "owners": [
+   "brandon"
+  ],
+  "seed": 5,
+  "prov": false
+ },
+ {
+  "year": 2023,
+  "rank": 7,
+  "playoffs": false,
+  "team": "White people",
+  "w": 6,
+  "l": 8,
+  "t": 0,
+  "pf": 1606.54,
+  "pa": 1559.06,
+  "streak": "L-1",
+  "faab_left": 3,
+  "waiver": 3,
+  "moves": 46,
+  "owners": [
+   "david"
+  ],
+  "seed": 8,
+  "prov": false
+ },
+ {
+  "year": 2023,
+  "rank": 8,
+  "playoffs": false,
+  "team": "Jacob's Incredible Team",
+  "w": 2,
+  "l": 12,
+  "t": 0,
+  "pf": 1328.2,
+  "pa": 1688.42,
+  "streak": "L-4",
+  "faab_left": 100,
+  "waiver": 1,
+  "moves": 21,
+  "owners": [
+   "zuck"
+  ],
+  "seed": 10,
+  "prov": false
+ },
+ {
+  "year": 2023,
+  "rank": 9,
+  "playoffs": false,
+  "team": "Brandon’s big dick",
+  "w": 5,
+  "l": 9,
+  "t": 0,
+  "pf": 1491.04,
+  "pa": 1692.2,
+  "streak": "W-1",
+  "faab_left": 57,
+  "waiver": 2,
+  "moves": 14,
+  "owners": [
+   "sinnreich"
+  ],
+  "seed": 9,
+  "prov": false
+ },
+ {
+  "year": 2023,
+  "rank": 10,
+  "playoffs": false,
+  "team": "Ups & Downs 🔄",
+  "w": 7,
+  "l": 7,
+  "t": 0,
+  "pf": 1487.8,
+  "pa": 1512.5,
+  "streak": "W-1",
+  "faab_left": 16,
+  "waiver": 4,
+  "moves": 36,
+  "owners": [
+   "josh"
+  ],
+  "seed": 7,
+  "prov": false
+ },
+ {
+  "year": 2024,
+  "rank": 1,
+  "playoffs": true,
+  "team": "$hmoney 💰",
+  "w": 10,
+  "l": 4,
+  "t": 0,
+  "pf": 1742,
+  "pa": 1556.86,
+  "streak": "W-2",
+  "faab_left": 13,
+  "waiver": 9,
+  "moves": 36,
+  "owners": [
+   "josh"
+  ],
+  "prov": false,
+  "seed": 2
+ },
+ {
+  "year": 2024,
+  "rank": 2,
+  "playoffs": true,
+  "team": "Not like Gus",
+  "w": 11,
+  "l": 3,
+  "t": 0,
+  "pf": 1751.94,
+  "pa": 1543.02,
+  "streak": "W-3",
+  "faab_left": 0,
+  "waiver": 10,
+  "moves": 32,
+  "owners": [
+   "huppert"
+  ],
+  "prov": false,
+  "seed": 1
+ },
+ {
+  "year": 2024,
+  "rank": 3,
+  "playoffs": true,
+  "team": "Run It Back",
+  "w": 6,
+  "l": 8,
+  "t": 0,
+  "pf": 1564.94,
+  "pa": 1591.54,
+  "streak": "L-1",
+  "faab_left": 0,
+  "waiver": 5,
+  "moves": 51,
+  "owners": [
+   "younger"
+  ],
+  "prov": false,
+  "seed": 6
+ },
+ {
+  "year": 2024,
+  "rank": 4,
+  "playoffs": true,
+  "team": "N/AFC EAST",
+  "w": 8,
+  "l": 6,
+  "t": 0,
+  "pf": 1564.24,
+  "pa": 1556.32,
+  "streak": "W-1",
+  "faab_left": 27,
+  "waiver": 7,
+  "moves": 22,
+  "owners": [
+   "sinnreich"
+  ],
+  "prov": false,
+  "seed": 4
+ },
+ {
+  "year": 2024,
+  "rank": 5,
+  "playoffs": true,
+  "team": "Daniel's Dazzling Team",
+  "w": 7,
+  "l": 7,
+  "t": 0,
+  "pf": 1594.54,
+  "pa": 1457.62,
+  "streak": "L-1",
+  "faab_left": 23,
+  "waiver": 6,
+  "moves": 31,
+  "owners": [
+   "daniel",
+   "shap"
+  ],
+  "prov": false,
+  "seed": 5
+ },
+ {
+  "year": 2024,
+  "rank": 6,
+  "playoffs": true,
+  "team": "The Costco Guys",
+  "w": 10,
+  "l": 4,
+  "t": 0,
+  "pf": 1689.76,
+  "pa": 1510.28,
+  "streak": "L-2",
+  "faab_left": 20,
+  "waiver": 8,
+  "moves": 38,
+  "owners": [
+   "mitch"
+  ],
+  "prov": false,
+  "seed": 3
+ },
+ {
+  "year": 2024,
+  "rank": 7,
+  "playoffs": false,
+  "team": "White People",
+  "w": 2,
+  "l": 12,
+  "t": 0,
+  "pf": 1364.86,
+  "pa": 1695,
+  "streak": "L-9",
+  "faab_left": 0,
+  "waiver": 1,
+  "moves": 41,
+  "owners": [
+   "david"
+  ],
+  "prov": false,
+  "seed": 10
+ },
+ {
+  "year": 2024,
+  "rank": 8,
+  "playoffs": false,
+  "team": "Jacob's Incredible Team",
+  "w": 4,
+  "l": 10,
+  "t": 0,
+  "pf": 1501.06,
+  "pa": 1577.46,
+  "streak": "W-1",
+  "faab_left": 100,
+  "waiver": 2,
+  "moves": 8,
+  "owners": [
+   "zuck"
+  ],
+  "prov": false,
+  "seed": 9
+ },
+ {
+  "year": 2024,
+  "rank": 9,
+  "playoffs": false,
+  "team": "Green Bowl Packers",
+  "w": 6,
+  "l": 8,
+  "t": 0,
+  "pf": 1459.92,
+  "pa": 1593.6,
+  "streak": "L-1",
+  "faab_left": 0,
+  "waiver": 4,
+  "moves": 37,
+  "owners": [
+   "brandon"
+  ],
+  "prov": false,
+  "seed": 7
+ },
+ {
+  "year": 2024,
+  "rank": 10,
+  "playoffs": false,
+  "team": "Fuck Le’Veon Bell",
+  "w": 6,
+  "l": 8,
+  "t": 0,
+  "pf": 1454.18,
+  "pa": 1605.74,
+  "streak": "W-1",
+  "faab_left": 12,
+  "waiver": 3,
+  "moves": 13,
+  "owners": [
+   "nate"
+  ],
+  "prov": false,
+  "seed": 8
+ },
+ {
+  "year": 2025,
+  "rank": 1,
+  "playoffs": true,
+  "team": "Swift Leeks Kelce’s Harri Cook",
+  "w": 10,
+  "l": 4,
+  "t": 0,
+  "pf": 1736.18,
+  "pa": 1552.46,
+  "streak": "L-1",
+  "faab_left": 2,
+  "waiver": 10,
+  "moves": 43,
+  "owners": [
+   "huppert"
+  ],
+  "seed": 1,
+  "prov": false
+ },
+ {
+  "year": 2025,
+  "rank": 2,
+  "playoffs": true,
+  "team": "$hmoney 💰",
+  "w": 8,
+  "l": 6,
+  "t": 0,
+  "pf": 1778.76,
+  "pa": 1633.96,
+  "streak": "W-3",
+  "faab_left": 10,
+  "waiver": 9,
+  "moves": 42,
+  "owners": [
+   "josh"
+  ],
+  "seed": 2,
+  "prov": false
+ },
+ {
+  "year": 2025,
+  "rank": 3,
+  "playoffs": true,
+  "team": "Jacob's Incredible Team",
+  "w": 8,
+  "l": 6,
+  "t": 0,
+  "pf": 1594.98,
+  "pa": 1642.36,
+  "streak": "W-1",
+  "faab_left": 100,
+  "waiver": 7,
+  "moves": 11,
+  "owners": [
+   "zuck"
+  ],
+  "seed": 4,
+  "prov": false
+ },
+ {
+  "year": 2025,
+  "rank": 4,
+  "playoffs": true,
+  "team": "Rome Alone",
+  "w": 8,
+  "l": 6,
+  "t": 0,
+  "pf": 1708.5,
+  "pa": 1656.04,
+  "streak": "W-1",
+  "faab_left": 0,
+  "waiver": 8,
+  "moves": 53,
+  "owners": [
+   "younger"
+  ],
+  "seed": 3,
+  "prov": false
+ },
+ {
+  "year": 2025,
+  "rank": 5,
+  "playoffs": true,
+  "team": "Fuck Le’Veon Bell",
+  "w": 7,
+  "l": 7,
+  "t": 0,
+  "pf": 1729.36,
+  "pa": 1746.68,
+  "streak": "L-4",
+  "faab_left": 87,
+  "waiver": 5,
+  "moves": 10,
+  "owners": [
+   "nate"
+  ],
+  "seed": 6,
+  "prov": false
+ },
+ {
+  "year": 2025,
+  "rank": 6,
+  "playoffs": true,
+  "team": "DanShap and Sams awesome team",
+  "w": 7,
+  "l": 7,
+  "t": 0,
+  "pf": 1748.16,
+  "pa": 1649.02,
+  "streak": "L-1",
+  "faab_left": 1,
+  "waiver": 6,
+  "moves": 54,
+  "owners": [
+   "daniel",
+   "shap",
+   "maryles"
+  ],
+  "seed": 5,
+  "prov": false
+ },
+ {
+  "year": 2025,
+  "rank": 7,
+  "playoffs": false,
+  "team": "joku.",
+  "w": 3,
+  "l": 11,
+  "t": 0,
+  "pf": 1490.32,
+  "pa": 1690.54,
+  "streak": "L-1",
+  "faab_left": 80,
+  "waiver": 1,
+  "moves": 20,
+  "owners": [
+   "sinnreich"
+  ],
+  "seed": 10,
+  "prov": false
+ },
+ {
+  "year": 2025,
+  "rank": 8,
+  "playoffs": false,
+  "team": "Randall Sutton my face",
+  "w": 5,
+  "l": 9,
+  "t": 0,
+  "pf": 1517.88,
+  "pa": 1693.4,
+  "streak": "W-1",
+  "faab_left": 0,
+  "waiver": 2,
+  "moves": 49,
+  "owners": [
+   "david"
+  ],
+  "seed": 9,
+  "prov": false
+ },
+ {
+  "year": 2025,
+  "rank": 9,
+  "playoffs": false,
+  "team": "Half Baked",
+  "w": 7,
+  "l": 7,
+  "t": 0,
+  "pf": 1577.28,
+  "pa": 1577.02,
+  "streak": "L-2",
+  "faab_left": 0,
+  "waiver": 3,
+  "moves": 28,
+  "owners": [
+   "brandon"
+  ],
+  "seed": 8,
+  "prov": false
+ },
+ {
+  "year": 2025,
+  "rank": 10,
+  "playoffs": false,
+  "team": "Njigbas Aren’t Worthy",
+  "w": 7,
+  "l": 7,
+  "t": 0,
+  "pf": 1679.72,
+  "pa": 1719.66,
+  "streak": "W-3",
+  "faab_left": 23,
+  "waiver": 4,
+  "moves": 35,
+  "owners": [
+   "mitch"
+  ],
+  "seed": 7,
+  "prov": false
+ }
+]
