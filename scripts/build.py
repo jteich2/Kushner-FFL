@@ -28,12 +28,14 @@ def owners_for(season, team, static_years):
 
 static_years = {r["year"] for r in static}
 S = list(static)
-G, NX, unfinished = [], {}, []
+G, NX, unfinished, LU = [], {}, [], {}
 for L in sorted(data["leagues"], key=lambda L: int(L["season"])):
     y = int(L["season"])
     po = int(L["settings"]["playoff_start_week"])
     side = {t["team_key"]: owners_for(y, t, static_years) for t in L["teams"]}
     names = {side[t["team_key"]]: t["name"] for t in L["teams"]}
+    for r in L.get("rosters", []):
+        LU.setdefault(y, {}).setdefault(str(r["week"]), {})[side[r["team_key"]]] = r["players"]
     for m in L["matchups"]:
         a, b = m["teams"]
         pa, pb = float(m["points"][0] or 0), float(m["points"][1] or 0)
@@ -64,7 +66,11 @@ cur = max(unfinished) if unfinished else 0
 html = (tpl.replace("__S__", json.dumps(S, ensure_ascii=False, separators=(",", ":")))
            .replace("__G__", json.dumps(G, ensure_ascii=False, separators=(",", ":")))
            .replace("__NX__", json.dumps(NX, ensure_ascii=False, separators=(",", ":")))
-           .replace("__CUR__", str(cur)))
+           .replace("__CUR__", str(cur))
+           .replace("__LY__", json.dumps(sorted(LU))))
 os.makedirs(os.path.join(ROOT, "public"), exist_ok=True)
 open(os.path.join(ROOT, "public", "index.html"), "w").write(html)
-print(f"Built public/index.html: {len(S)} season rows, {len(G)} games, current season {cur or 'none'}")
+os.makedirs(os.path.join(ROOT, "public", "lineups"), exist_ok=True)
+for yr, weeks in LU.items():
+    json.dump(weeks, open(os.path.join(ROOT, "public", "lineups", f"{yr}.json"), "w"), ensure_ascii=False, separators=(",", ":"))
+print(f"Built public/index.html: {len(S)} season rows, {len(G)} games, lineups for {sorted(LU)}, current season {cur or 'none'}")

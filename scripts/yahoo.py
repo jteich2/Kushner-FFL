@@ -114,3 +114,41 @@ def pull_league(api, key, name, season):
                                         "is_playoffs": first(m, "is_playoffs"), "is_consolation": first(m, "is_consolation")})
     out["rosters"] = []
     return out
+
+
+def played_weeks(L):
+    weeks = set()
+    for m in L.get("matchups", []):
+        st = m.get("status")
+        pts = sum(float(p or 0) for p in m["points"])
+        if st == "postevent" or (st is None and pts > 0):
+            weeks.add(m["week"])
+    return sorted(weeks)
+
+
+def pull_rosters(api, L, have=None):
+    """Every team's lineup and player points for every finished week. Skips weeks already in `have`."""
+    have = have or {}
+    out = list(have.values())
+    weeks = played_weeks(L)
+    print(f"  lineups for {L['season']}: {len(L['teams'])} teams x {len(weeks)} weeks")
+    for t in L["teams"]:
+        for w in weeks:
+            if (t["team_key"], w) in have:
+                continue
+            r = api.get(f"team/{t['team_key']}/roster;week={w}/players/stats;type=week;week={w}")
+            players = []
+            for p in find(r, "player") if r else []:
+                nm = first(p, "full")
+                if not nm:
+                    continue
+                sel = first(p, "selected_position") or {}
+                pts = first(first(p, "player_points") or {}, "total")
+                try:
+                    pts = round(float(pts), 2)
+                except (TypeError, ValueError):
+                    pts = None
+                players.append([nm, first(p, "display_position"), first(sel, "position"), pts])
+            if players:
+                out.append({"team_key": t["team_key"], "week": w, "players": players})
+    return out

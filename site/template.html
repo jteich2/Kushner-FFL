@@ -263,6 +263,22 @@ td.sc{white-space:nowrap}
 .mfoot{font-size:12.5px;color:var(--muted);margin-top:4px}
 footer.attrib{max-width:1120px;margin:40px auto 0;padding:14px 32px;color:var(--muted);font-size:13px;border-top:1px solid var(--line)}
 footer.attrib a{color:var(--blue-dd)}
+
+.mfoot{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.lubtn{border:1px solid var(--sky-2);background:var(--surface);color:var(--blue-dd);border-radius:6px;padding:4px 10px;cursor:pointer;font:700 14px var(--display)}
+.mcard.open{outline:2px solid var(--blue-d)}
+.ludh{display:flex;align-items:center;gap:12px;padding:14px 18px;border-bottom:1px solid var(--line)}
+.ludh h3{margin:0;font:italic 800 26px var(--display)}
+.lugrid{display:grid;grid-template-columns:1fr 1fr}
+.lucol{padding:12px 14px;min-width:0}
+.lucol + .lucol{border-left:1px solid var(--line)}
+.luhead{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+.luhead b{margin-left:auto;font:italic 800 26px var(--display)}
+table.lu td{padding:6px 8px;font-size:14.5px}
+table.lu td.slot{color:var(--muted);font:700 13px var(--display);width:44px}
+table.lu tr.bench td{color:var(--muted)}
+table.lu tr.lutot td{font-weight:700;background:var(--bg)}
+@media (max-width:760px){.lugrid{grid-template-columns:1fr}.lucol + .lucol{border-left:0;border-top:1px solid var(--line)}}
 </style>
 </head>
 <body>
@@ -377,10 +393,11 @@ footer.attrib a{color:var(--blue-dd)}
 </section>
 
 <section class="view" data-view="matchups" hidden>
-  <div class="vh"><div><h2>Matchups</h2><p>Every game since 2017. Pick a season and a week. Playoff weeks are marked P.</p></div></div>
+  <div class="vh"><div><h2>Matchups</h2><p>Every game since 2017. Pick a season and a week, then open any game's lineups to see who started and what every player scored. Playoff weeks are marked P.</p></div></div>
   <div class="years" id="muYears"></div>
   <div class="years wks" id="muWeeks"></div>
   <div class="mlist" id="muList"></div>
+  <div id="muDetail" style="margin-top:16px"></div>
 </section>
 <footer class="attrib">Fantasy data provided by <a href="https://football.fantasysports.yahoo.com/league/kushnerffl" target="_blank" rel="noopener">Yahoo Fantasy</a></footer>
 </main>
@@ -395,6 +412,7 @@ const S = __S__;
 const G = __G__.map(a=>({y:a[0],w:a[1],a:a[2],b:a[3],pa:a[4],pb:a[5],k:a[6]}));
 const NX = __NX__;
 const CUR = __CUR__;
+const LINEUP_YEARS = __LY__;
 const sideHas=(side,key)=>key.includes("+")?side===key:side.split("+").includes(key);
 const sideOwners=side=>side.split("+");
 function gameRec(key,games){let w=0,l=0,t=0,pf=0,pa=0;
@@ -802,18 +820,51 @@ document.addEventListener("click",e=>{const b=e.target.closest(".mgr,.pcard"); i
 /* Matchups */
 (function(){
   const yrs=[...new Set(G.map(g=>g.y))].sort();
-  let y=Math.max(...yrs), w=Math.max(...G.filter(g=>g.y===y).map(g=>g.w));
+  let y=Math.max(...yrs), w=Math.max(...G.filter(g=>g.y===y).map(g=>g.w)), open=null;
+  const cache={};
+  const SLOT_ORDER=["QB","WR","RB","TE","W/R/T","K","DEF","BN","IR"];
+  async function lineups(yr){
+    if(!LINEUP_YEARS.includes(yr)) return null;
+    if(!cache[yr]){ try{ const r=await fetch(`lineups/${yr}.json`); cache[yr]=r.ok?await r.json():{}; }catch(e){ cache[yr]={}; } }
+    return cache[yr];
+  }
+  function lineupTable(players,teamPts){
+    const ps=[...players].sort((a,b)=>SLOT_ORDER.indexOf(a[2])-SLOT_ORDER.indexOf(b[2])||(b[3]||0)-(a[3]||0));
+    const st=ps.filter(p=>p[2]!=="BN"&&p[2]!=="IR"), bn=ps.filter(p=>p[2]==="BN"||p[2]==="IR");
+    const top=Math.max(...st.map(p=>p[3]||0));
+    const row=(p,cls)=>`<tr class="${cls}"><td class="l slot">${esc(p[2]==="W/R/T"?"FLEX":p[2])}</td><td class="l">${esc(p[0])}<span class="fn">${esc(p[1]||"")}</span></td><td>${p[3]===null||p[3]===undefined?"-":fmt(+p[3])}${cls!=="bench"&&(p[3]||0)===top&&top>0?' <span class="pill champ">Top</span>':""}</td></tr>`;
+    const sum=a=>a.reduce((t,p)=>t+(+p[3]||0),0);
+    return `<table class="lu"><tbody>${st.map(p=>row(p,"")).join("")}
+      <tr class="lutot"><td class="l" colspan="2">Starters</td><td>${fmt(sum(st))}</td></tr>
+      ${bn.map(p=>row(p,"bench")).join("")}
+      <tr class="lutot bench"><td class="l" colspan="2">Bench</td><td>${fmt(sum(bn))}</td></tr></tbody></table>`;
+  }
+  async function detail(){
+    const box=$("#muDetail");
+    if(open===null){ box.innerHTML=LINEUP_YEARS.includes(y)?'<p class="hint">Pick a game to see both lineups and every player\'s points.</p>':""; return; }
+    const g=G.filter(g=>g.y===y&&g.w===w)[open]; if(!g){box.innerHTML="";return;}
+    box.innerHTML='<p class="hint">Loading lineups...</p>';
+    const L=await lineups(y), wk=L&&L[w];
+    if(!wk||!wk[g.a]||!wk[g.b]){ box.innerHTML='<p class="hint">Lineups are not available for this game yet.</p>'; return; }
+    const col=(s,p)=>`<div class="lucol"><div class="luhead">${sideHtml(s)}<span class="mteam">${esc(teamNameFor(y,s))}</span><b>${fmt(p)}</b></div>${lineupTable(wk[s],p)}</div>`;
+    box.innerHTML=`<div class="panel ludet"><div class="ludh"><h3>${y} week ${w}</h3>${kindTag(g)}</div><div class="lugrid">${col(g.a,g.pa)}${col(g.b,g.pb)}</div></div>`;
+  }
   function draw(){
     $("#muYears").innerHTML=yrs.map(v=>`<button data-y="${v}" aria-pressed="${v===y}">${v}</button>`).join("");
     const weeks=[...new Set(G.filter(g=>g.y===y).map(g=>g.w))].sort((a,b)=>a-b);
-    $("#muWeeks").innerHTML=weeks.map(v=>{const p=G.find(g=>g.y===y&&g.w===v&&g.k!=="r");return `<button data-w="${v}" aria-pressed="${v===w}" class="${p?"pw":""}">${p?"P":"Wk "}${p?v-weeks.filter(x=>!G.find(g=>g.y===y&&g.w===x&&g.k!=="r")).length:v}</button>`;}).join("");
-    const gs=G.filter(g=>g.y===y&&g.w===w).sort((a,b)=>(a.k==="c")-(b.k==="c"));
+    const reg=weeks.filter(x=>!G.find(g=>g.y===y&&g.w===x&&g.k!=="r")).length;
+    $("#muWeeks").innerHTML=weeks.map(v=>{const p=G.find(g=>g.y===y&&g.w===v&&g.k!=="r");return `<button data-w="${v}" aria-pressed="${v===w}" class="${p?"pw":""}">${p?"P"+(v-reg):"Wk "+v}</button>`;}).join("");
+    const gs=G.filter(g=>g.y===y&&g.w===w);
     const hi=Math.max(...gs.flatMap(g=>[g.pa,g.pb]));
+    const has=LINEUP_YEARS.includes(y);
     const side=(s,p,o)=>`<div class="mside ${p>o?"win":""}"><div class="mwho">${sideHtml(s)}<span class="mteam">${esc(teamNameFor(y,s))}</span></div><div class="mpts">${fmt(p)}${p===hi?' <span class="pill champ" title="Top score this week">Top</span>':""}</div></div>`;
-    $("#muList").innerHTML=gs.map(g=>`<div class="panel mcard">${kindTag(g)?`<div class="mtag">${kindTag(g)}</div>`:""}${side(g.a,g.pa,g.pb)}${side(g.b,g.pb,g.pa)}<div class="mfoot">Margin ${fmt(Math.abs(g.pa-g.pb))}, combined ${fmt(g.pa+g.pb)}</div></div>`).join("")||'<p class="hint">No games this week.</p>';
+    const order=gs.map((g,i)=>[g,i]).sort((a,b)=>(a[0].k==="c")-(b[0].k==="c"));
+    $("#muList").innerHTML=order.map(([g,i])=>`<div class="panel mcard${open===i?" open":""}">${kindTag(g)?`<div class="mtag">${kindTag(g)}</div>`:""}${side(g.a,g.pa,g.pb)}${side(g.b,g.pb,g.pa)}<div class="mfoot">Margin ${fmt(Math.abs(g.pa-g.pb))}, combined ${fmt(g.pa+g.pb)}${has?`<button class="lubtn" data-i="${i}" type="button">${open===i?"Hide lineups":"Lineups"}</button>`:""}</div></div>`).join("")||'<p class="hint">No games this week.</p>';
+    detail();
   }
-  $("#muYears").addEventListener("click",e=>{const b=e.target.closest("[data-y]"); if(!b)return; y=+b.dataset.y; w=Math.min(...G.filter(g=>g.y===y).map(g=>g.w)); draw();});
-  $("#muWeeks").addEventListener("click",e=>{const b=e.target.closest("[data-w]"); if(!b)return; w=+b.dataset.w; draw();});
+  $("#muYears").addEventListener("click",e=>{const b=e.target.closest("[data-y]"); if(!b)return; y=+b.dataset.y; w=Math.min(...G.filter(g=>g.y===y).map(g=>g.w)); open=null; draw();});
+  $("#muWeeks").addEventListener("click",e=>{const b=e.target.closest("[data-w]"); if(!b)return; w=+b.dataset.w; open=null; draw();});
+  $("#muList").addEventListener("click",e=>{const b=e.target.closest(".lubtn"); if(!b)return; const i=+b.dataset.i; open=open===i?null:i; draw(); if(open!==null) setTimeout(()=>$("#muDetail").scrollIntoView({behavior:"smooth",block:"start"}),50);});
   draw();
 })();
 
